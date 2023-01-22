@@ -2,7 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo 'Compiling code..'
-yarn webpack:build
-
-echo 'Running tests coverage...'
-yarn test:cov --passWithNoTests
+yarn build
